@@ -1,5 +1,6 @@
 first_number = 1.2
 second_number = 4
+sum = first_number+second_number
 # Add your variables here
 def calculator()
   expect( first_number).to be_an(Integer).or be_a(Float)
